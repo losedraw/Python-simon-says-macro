@@ -51,6 +51,7 @@ while True:
 
 while True:
     if keyboard.is_pressed('o'):
+        print('Program started')
         macro.start_macro = True
     if macro.start_macro == True:
         macro.color_checker()
